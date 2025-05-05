@@ -1,0 +1,47 @@
+<div class="container mt-4 p-4 border rounded bg-light shadow-sm">
+  <h2 class="mb-4">Consulta de materias</h2>
+
+  <div class="mb-3">
+    <label class="form-label">ID del alumno:</label>
+    <input type="number" [(ngModel)]="idAlumno" class="form-control" />
+  </div>
+
+  <div class="mb-3">
+    <button class="btn btn-primary me-2" (click)="consultarMaterias()">Consultar Materias</button>
+    <button class="btn btn-success" (click)="consultarCosto()">Calcular Costo Total</button>
+  </div>
+
+  <div *ngIf="mensaje" class="alert alert-info">{{ mensaje }}</div>
+
+  <ul *ngIf="materias.length" class="list-group mb-3">
+    <li *ngFor="let materia of materias" class="list-group-item">
+      {{ materia.nombre }} - ${{ materia.costo }}
+    </li>
+  </ul>
+
+  <div *ngIf="costoTotal > 0" class="alert alert-info">
+    <strong>Total a pagar:</strong> ${{ costoTotal }}
+  </div>
+
+  <hr />
+
+  <h3 class="mb-3">Agregar materia al alumno</h3>
+
+  <div class="mb-3">
+    <label for="nombreMateria" class="form-label">Selecciona una materia:</label>
+    <select id="nombreMateria" class="form-select" [(ngModel)]="materiaSeleccionada">
+      <option [ngValue]="null" disabled selected>-- Selecciona una materia --</option>
+      <option *ngFor="let materia of todasLasMaterias" [ngValue]="materia">
+        {{ materia.nombre }}
+      </option>
+    </select>
+  </div>
+
+  <button class="btn btn-secondary" (click)="agregarMateria()">Agregar Materia</button>
+
+  <ul *ngIf="materiasAgregadas.length" class="list-group mt-3">
+    <li *ngFor="let nombre of materiasAgregadas" class="list-group-item">
+      Materia agregada: {{ nombre }}
+    </li>
+  </ul>
+</div>

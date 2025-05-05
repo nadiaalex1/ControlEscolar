@@ -1,0 +1,15 @@
+C:\Users\Usuario\ControlE\ControlEscolar.Data\bin\Debug\net9.0\ControlEscolar.Data.deps.json
+C:\Users\Usuario\ControlE\ControlEscolar.Data\bin\Debug\net9.0\ControlEscolar.Data.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Data\bin\Debug\net9.0\ControlEscolar.Data.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Data\bin\Debug\net9.0\ControlEscolar.Core.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Data\bin\Debug\net9.0\ControlEscolar.Core.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlEscolar.Data.csproj.AssemblyReference.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlEscolar.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlEscolar.Data.AssemblyInfoInputs.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlEscolar.Data.AssemblyInfo.cs
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlEscolar.Data.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlE.606B6356.Up2Date
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlEscolar.Data.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\refint\ControlEscolar.Data.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ControlEscolar.Data.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Data\obj\Debug\net9.0\ref\ControlEscolar.Data.dll

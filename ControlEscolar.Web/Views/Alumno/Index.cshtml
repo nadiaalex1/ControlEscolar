@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Prueba de Alumnos</title>
+</head>
+<body>
+  <h2>Registrar Alumno</h2>
+  <form id="formAlumno">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="text" id="apellidoPaterno" placeholder="Apellido Paterno" required />
+    <input type="text" id="apellidoMaterno" placeholder="Apellido Materno" required />
+    <button type="submit">Registrar</button>
+  </form>
+
+  <h2>Lista de Alumnos</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido Paterno</th>
+        <th>Apellido Materno</th>
+      </tr>
+    </thead>
+    <tbody id="tablaAlumnos">
+    </tbody>
+  </table>
+
+  <script>
+    const form = document.getElementById('formAlumno');
+    const tabla = document.getElementById('tablaAlumnos');
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const alumno = {
+        nombre: document.getElementById('nombre').value,
+        apellidoPaterno: document.getElementById('apellidoPaterno').value,
+        apellidoMaterno: document.getElementById('apellidoMaterno').value
+      };
+
+      fetch('http://localhost:5242/api/alumno/registrar', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(alumno)
+      })
+      .then(res => res.json())
+      .then(() => {
+        alert('Alumno registrado');
+        form.reset();
+        cargarAlumnos();
+      });
+    });
+
+    function cargarAlumnos() {
+      fetch('http://localhost:5242/api/alumno/listar')
+        .then(res => res.json())
+        .then(data => {
+          tabla.innerHTML = '';
+          data.forEach(alumno => {
+            tabla.innerHTML += `
+              <tr>
+                <td>${alumno.nombre}</td>
+                <td>${alumno.apellidoPaterno}</td>
+                <td>${alumno.apellidoMaterno}</td>
+              </tr>
+            `;
+          });
+        });
+    }
+
+    cargarAlumnos();
+  </script>
+</body>
+</html>

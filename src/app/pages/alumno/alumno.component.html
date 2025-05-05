@@ -1,0 +1,36 @@
+<div class="container mt-4">
+    <h2 class="mb-4">Registro de Alumnos</h2>
+  
+    <form (ngSubmit)="guardar()" class="row g-3">
+      <div class="col-md-4">
+        <input type="text" class="form-control" [(ngModel)]="nuevo.nombre" name="nombre" placeholder="Nombre" required>
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control" [(ngModel)]="nuevo.apellidoPaterno" name="apellidoPaterno" placeholder="Apellido Paterno" required>
+      </div>
+      <div class="col-md-4">
+        <input type="text" class="form-control" [(ngModel)]="nuevo.apellidoMaterno" name="apellidoMaterno" placeholder="Apellido Materno">
+      </div>
+      <div class="col-12 text-end">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </div>
+    </form>
+    <div class="row my-4">
+     
+    </div>
+    
+    <input type="text" [(ngModel)]="busqueda" placeholder="Buscar por nombre" class="form-control">
+    <button (click)="buscarNombre()" class="btn btn-primary">Buscar</button>
+  
+
+    <hr class="my-4">
+  
+    <h3 class="mb-3">Lista de Alumnos</h3>
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center" *ngFor="let alumno of alumnos">
+        {{ alumno.nombre }} {{ alumno.apellidoPaterno }} {{ alumno.apellidoMaterno }}
+        <button class="btn btn-danger btn-sm" (click)="eliminar(alumno.idAlumno)">Eliminar</button>
+      </li>
+    </ul>
+  </div>
+  

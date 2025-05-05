@@ -1,0 +1,41 @@
+<h2 class="mb-4">Registro de Materias</h2>
+
+<form (ngSubmit)="guardar()" class="mb-4">
+  <div class="mb-3">
+    <label class="form-label">Nombre:</label>
+    <input [(ngModel)]="nuevaMateria.nombre" name="nombre" class="form-control" required />
+  </div>
+  <div class="mb-3">
+    <label class="form-label">Costo:</label>
+    <input type="number" [(ngModel)]="nuevaMateria.costo" name="costo" class="form-control" required />
+  </div>
+  <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+<div class="mb-4">
+  <label class="form-label">Buscar por nombre:</label>
+  <input type="text" [(ngModel)]="nombreBuscar" name="nombreBuscar" class="form-control mb-2" placeholder="Nombre de la materia" />
+  <button (click)="buscarPorNombre()" class="btn btn-outline-success">Buscar</button>
+</div>
+
+<div *ngIf="materiaEncontrada" class="alert alert-info">
+  <strong>Resultado:</strong> {{ materiaEncontrada.nombre }} - ${{ materiaEncontrada.costo }}
+</div>
+
+<div *ngIf="materias && materias.length > 0" class="mt-4">
+  <h3>Lista de materias registradas</h3>
+  <table class="table table-bordered table-striped mt-2">
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Costo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let materia of materias">
+        <td>{{ materia.nombre }}</td>
+        <td>${{ materia.costo }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

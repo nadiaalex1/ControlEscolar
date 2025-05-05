@@ -1,0 +1,11 @@
+C:\Users\Usuario\ControlE\ControlEscolar.Core\bin\Debug\net9.0\ControlEscolar.Core.deps.json
+C:\Users\Usuario\ControlE\ControlEscolar.Core\bin\Debug\net9.0\ControlEscolar.Core.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Core\bin\Debug\net9.0\ControlEscolar.Core.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\ControlEscolar.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\ControlEscolar.Core.AssemblyInfoInputs.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\ControlEscolar.Core.AssemblyInfo.cs
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\ControlEscolar.Core.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\ControlEscolar.Core.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\refint\ControlEscolar.Core.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\ControlEscolar.Core.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Core\obj\Debug\net9.0\ref\ControlEscolar.Core.dll

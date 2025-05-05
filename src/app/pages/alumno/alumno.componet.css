@@ -1,0 +1,28 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2eaa38;
+  }
+  
+  
+  .btn-custom {
+    background-color: #008cff;
+    color: #ad4747;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+  }
+  
+  
+  .card {
+    background-color: #56b2d3; 
+    border-radius: 12px;
+    width: 200%;
+    max-width: 450px;
+    min-height: 300px;
+  }
+  
+  

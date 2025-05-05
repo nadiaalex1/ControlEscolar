@@ -1,0 +1,19 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+}
+
+.card {
+  background-color: #d0d8f5;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 1rem;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}

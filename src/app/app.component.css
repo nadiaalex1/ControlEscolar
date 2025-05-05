@@ -1,0 +1,29 @@
+.home-container {
+  background-color: #dbdbf3; 
+  color: rgb(8, 8, 8);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #3043f7;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  min-width: 400px;
+}
+
+.nav-link-custom {
+  color: #b3a1ff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.nav-link-custom:hover,
+.nav-link-custom.active {
+  color: #fff;
+  background-color: #8087f1;
+  border-radius: 0.5rem;
+}

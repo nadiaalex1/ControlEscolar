@@ -1,0 +1,8 @@
+namespace ControlEscolar.DTOs
+{
+    public class LoginDTO
+    {
+        public string Usuario { get; set; }
+        public string Contrasenia { get; set; }
+    }
+}

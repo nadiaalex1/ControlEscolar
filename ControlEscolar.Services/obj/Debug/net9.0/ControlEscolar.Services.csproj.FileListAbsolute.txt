@@ -1,0 +1,17 @@
+C:\Users\Usuario\ControlE\ControlEscolar.Services\bin\Debug\net9.0\ControlEscolar.Services.deps.json
+C:\Users\Usuario\ControlE\ControlEscolar.Services\bin\Debug\net9.0\ControlEscolar.Services.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Services\bin\Debug\net9.0\ControlEscolar.Services.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Services\bin\Debug\net9.0\ControlEscolar.Core.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Services\bin\Debug\net9.0\ControlEscolar.Data.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Services\bin\Debug\net9.0\ControlEscolar.Data.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Services\bin\Debug\net9.0\ControlEscolar.Core.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlEscolar.Services.csproj.AssemblyReference.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlEscolar.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlEscolar.Services.AssemblyInfoInputs.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlEscolar.Services.AssemblyInfo.cs
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlEscolar.Services.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlE.3FBA4B72.Up2Date
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlEscolar.Services.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\refint\ControlEscolar.Services.dll
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ControlEscolar.Services.pdb
+C:\Users\Usuario\ControlE\ControlEscolar.Services\obj\Debug\net9.0\ref\ControlEscolar.Services.dll
